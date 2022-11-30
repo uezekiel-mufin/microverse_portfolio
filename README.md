@@ -1,4 +1,4 @@
-# My Portfolio
+# 📰 My Portfolio
 
 This is a project aimed at building my professional portfolio as a web developer and also help do the following:
 
@@ -7,7 +7,7 @@ This is a project aimed at building my professional portfolio as a web developer
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
 
-# Built With
+# 🛠 Built With
 
 This Project was built with the following technologies
 
@@ -16,10 +16,14 @@ This Project was built with the following technologies
 
 # Key Feature
 
-- Navbar Element
-- Headline Element
+- Navbar
+- Headline Section
 
-# Getting Started
+# 🚀 Live Demo
+
+No Live Demo for this project yet
+
+# 💻 Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -35,10 +39,21 @@ To get a local copy up and running, follow these steps.
 
 - There is no deployment for this project yet.
 
-# Authors
+# 👩‍💻 Authors
 
 ### Author1
 
 - GitHub: @Ezzywealth
 - Twitter: @EzzyWealth
 - LinkedIn: <a href='https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/'>LinkedIn</a>
+
+# 🛸 Future Features
+
+- About Section
+- Portfolio Section
+- Footer Section
+- Contact Section
+
+# 🙏 Acknowledgement
+
+I would like to thank Microverse for giving us this task to build our portfolio using template and designs provided by them.
