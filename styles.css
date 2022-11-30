@@ -32,6 +32,8 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+  text-decoration: none;
+
   color: #28352f;
 }
 
@@ -51,7 +53,7 @@ body {
   height: 726px;
 }
 
-.headline_container header {
+.headline_container .headline_items {
   padding: 58px 24px;
   display: flex;
   flex-direction: column;
@@ -116,7 +118,7 @@ body {
     background: none;
   }
 
-  .headline_container header {
+  .headline_container .headline_items {
     margin: 0% 17%;
     padding: 160px 50px;
     gap: 24px;
