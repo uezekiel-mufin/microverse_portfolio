@@ -1,11 +1,6 @@
 # 📰 My Portfolio
 
-This is a project aimed at building my professional portfolio as a web developer and also help do the following:
-
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
+This is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
 
 # 🛠 Built With
 
@@ -50,9 +45,14 @@ To get a local copy up and running, follow these steps.
 - LinkedIn: <a href='https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/'>LinkedIn</a>
 
 # 🛸 Future Features
+
 - Contact Section
 - Footer Section
 
 # 🙏 Acknowledgement
 
 I would like to thank Microverse for giving us this task to build our portfolio using template and designs provided by them.
+
+# 📝 License
+
+- This project is MIT licensed.
