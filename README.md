@@ -18,6 +18,8 @@ This Project was built with the following technologies
 
 - Navbar
 - Headline Section
+- Portfolio Section
+- About Section
 
 # 🚀 Live Demo
 
@@ -48,11 +50,8 @@ To get a local copy up and running, follow these steps.
 - LinkedIn: <a href='https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/'>LinkedIn</a>
 
 # 🛸 Future Features
-
-- About Section
-- Portfolio Section
-- Footer Section
 - Contact Section
+- Footer Section
 
 # 🙏 Acknowledgement
 
