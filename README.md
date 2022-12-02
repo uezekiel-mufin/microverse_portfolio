@@ -33,9 +33,9 @@
 <!-- - [❓ FAQ](#faq) -->
 - [📝 License](#license)
 
-# 📰 [My Portfolio] <a name="about-project"></a>
+# 📰 My Portfolio <a name="about-project"></a>
 
-** [My_Portfolio]** is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
+- My Portfolio project is a project aimed at building my professional portfolio and also showcase my works and skills as a web developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,10 +51,10 @@ This Project was built with the following technologies
 
 ### Key Features <a name="key-features"></a>
 
-- **[Navbar]**
-- **[Headline_Section]**
-- **[Portfolio_Section]**
-- **[About_Section]**
+- Navbar
+- Headline Section
+- Portfolio Section
+- About Section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,17 +70,36 @@ No Live Demo for this project yet
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need to run the following command:
+
+- npm init -y
+
 ### Setup
 
-- Clone this repository to your desired folder: git clone https://github.com/Ezzywealth/microverse_portfolio.git
+Clone this repository to your desired folder:
+
+- cd my-folder
+- git clone https://github.com/Ezzywealth/microverse_portfolio.git
 
 ### Install
 
-- Install this project with Node package manager (NPM)
+Install this project with:
+
+- cd my-project
+- npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+- live server
 
 ### Deployment
 
-- There is no deployment for this project yet.
+- You can deploy this project using:
+- [@vercel](https://vercel.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,8 +115,8 @@ To get a local copy up and running, follow these steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact_section]**
-- [ ] **[Footer_section]**
+- [ ] Contact_section
+- [ ] Footer_section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +132,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project kindly reach out to be for any show of support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
