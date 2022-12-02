@@ -94,7 +94,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-- live server
+- run with live server
 
 ### Deployment
 
