@@ -325,6 +325,7 @@ body {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+  margin: 0 24px;
 }
 
 .language_lists {
@@ -496,6 +497,7 @@ body {
 
   .languages {
     padding: 5px;
+    margin: 0;
   }
 
   .about_top {
