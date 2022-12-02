@@ -44,7 +44,7 @@ body {
 }
 
 .headline_container {
-  background: url("/images/header-mobile.jpg");
+  background: url("./images/header-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 95%;
@@ -243,7 +243,7 @@ body {
 
 #about {
   margin: 68px 0;
-  background-image: url("/images/aboutmetop_desktop.jpg");
+  background-image: url("./images/aboutmetop_desktop.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -256,7 +256,7 @@ body {
   gap: 24px;
   position: relative;
   padding: 0 12px;
-  background-image: url("/images/aboutbottom-mobile.jpg");
+  background-image: url("./images/aboutbottom-mobile.jpg");
   background-size: 80px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -376,7 +376,7 @@ body {
   }
 
   .landing {
-    background: url("/images/Header-bg.png");
+    background: url("./images/Header-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 85% 0%;
@@ -501,7 +501,7 @@ body {
   .about_top {
     position: relative;
     padding: 0 260px;
-    background-image: url("/images/aboutbottom-desktop.jpg");
+    background-image: url("./images/aboutbottom-desktop.jpg");
     background-size: 230px;
     background-repeat: no-repeat;
     background-position: left center;
