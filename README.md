@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="/images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>My Portfolio README </b></h3>
@@ -99,7 +99,7 @@ To run the project, execute the following command:
 ### Deployment
 
 - You can deploy this project using:
-- [@vercel](https://vercel.com)
+- [vercel](https://vercel.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +115,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Contact_section
-- [ ] Footer_section
+- [ ] Contact section
+- [ ] Footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +129,6 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project kindly reach out to be for any show of support.
 
