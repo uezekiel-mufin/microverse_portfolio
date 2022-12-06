@@ -286,7 +286,8 @@ body {
   color: #42526e;
 }
 
-.about_button, .contact_button {
+.about_button,
+.contact_button {
   display: flex;
   border: none;
   color: #fff;
@@ -300,13 +301,15 @@ body {
   line-height: 24px;
 }
 
-.about_button:hover, .contact_button:hover {
+.about_button:hover,
+.contact_button:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   transition: all 300 ease-in-out;
 }
 
-.about_button:active, .contact_button:active {
+.about_button:active,
+.contact_button:active {
   background: #008552;
 }
 
@@ -365,51 +368,84 @@ body {
   justify-content: center;
 }
 
-#contact_form{
- padding: 0 24px;
- display: flex;
- flex-direction: column;
- align-items: center;
+#contact_form {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact_header{
+.contact_header {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
-}
-form{
-  width: 100%;
-}
-.contact_form ul{
-  display: flex;
-  align-items: center;
- flex-direction: column;
- list-style: none;
- padding: 0;
- margin: 0;
- gap: 30px;
+  color: #172b4d;
+  margin: 0 24px;
 }
 
-.contact_form ul li{
-  padding: 0;
- width: 100%;
-display: flex;
-justify-content: center;
+form {
+  width: 100%;
 }
-.contact_form ul li input{
+
+.contact_form ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  margin: 0 24px;
+}
+
+.contact_form ul li {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form ul li input {
   width: 100%;
   padding: 15px 15.5px;
-  
 }
-textarea{
+
+.contact_form ul li textarea {
   width: 90%;
   padding: 15px 15.5px;
 }
 
+#socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/contact-form-bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  margin: 0 24px;
+}
+
+.contact_socials {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.contact_email {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 147px;
+}
 
 @media (min-width: 960px) {
   .headline_container {
