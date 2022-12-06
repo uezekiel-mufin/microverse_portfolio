@@ -286,7 +286,7 @@ body {
   color: #42526e;
 }
 
-.about_button {
+.about_button, .contact_button {
   display: flex;
   border: none;
   color: #fff;
@@ -300,13 +300,13 @@ body {
   line-height: 24px;
 }
 
-.about_button:hover {
+.about_button:hover, .contact_button:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   transition: all 300 ease-in-out;
 }
 
-.about_button:active {
+.about_button:active, .contact_button:active {
   background: #008552;
 }
 
@@ -364,6 +364,52 @@ body {
   display: flex;
   justify-content: center;
 }
+
+#contact_form{
+ padding: 0 24px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.contact_header{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+}
+form{
+  width: 100%;
+}
+.contact_form ul{
+  display: flex;
+  align-items: center;
+ flex-direction: column;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ gap: 30px;
+}
+
+.contact_form ul li{
+  padding: 0;
+ width: 100%;
+display: flex;
+justify-content: center;
+}
+.contact_form ul li input{
+  width: 100%;
+  padding: 15px 15.5px;
+  
+}
+textarea{
+  width: 90%;
+  padding: 15px 15.5px;
+}
+
 
 @media (min-width: 960px) {
   .headline_container {
