@@ -55,6 +55,8 @@ This Project was built with the following technologies
 - Headline Section
 - Portfolio Section
 - About Section
+- Contact Section
+- Footer Section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +117,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Contact section
-- [ ] Footer section
+- [ ] None at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
