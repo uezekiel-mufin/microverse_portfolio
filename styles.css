@@ -383,7 +383,7 @@ body {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  margin: 0 24px;
+  margin: 0 24px 58px 24px;
 }
 
 form {
@@ -396,8 +396,7 @@ form {
   flex-direction: column;
   list-style: none;
   padding: 0;
-  margin: 0;
-  gap: 30px;
+  gap: 24px;
   margin: 0 24px;
 }
 
@@ -410,12 +409,13 @@ form {
 
 .contact_form ul li input {
   width: 100%;
-  padding: 15px 15.5px;
+  padding: 14px 15.5px;
 }
 
 .contact_form ul li textarea {
   width: 90%;
   padding: 15px 15.5px;
+  margin-top: 10px;
 }
 
 #socials {
@@ -445,6 +445,7 @@ form {
   line-height: 32px;
   text-align: center;
   margin-bottom: 147px;
+  margin-top: 0;
 }
 
 @media (min-width: 960px) {

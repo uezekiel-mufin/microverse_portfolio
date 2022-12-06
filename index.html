@@ -218,7 +218,11 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h2>
-        <form action="" class="contact_form">
+        <form
+          action="https://formspree.io/f/mwkzgobg"
+          method="POST"
+          class="contact_form"
+        >
           <ul>
             <li>
               <input
@@ -226,18 +230,29 @@
                 name="full_name"
                 id="full_name"
                 placeholder="Full Name"
+                required
+                maxlength="30"
               />
             </li>
             <li>
-              <input type="text" name="email" id="email" placeholder="Email" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+                maxlength="30"
+              />
             </li>
             <li>
               <textarea
-                type="text"
+                type="email"
                 name="message"
                 id="message"
                 placeholder="Enter text here"
-                rows="4"
+                rows="5"
+                required
+                maxlength="500"
               ></textarea>
             </li>
             <li><button class="contact_button">Get in touch</button></li>
