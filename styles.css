@@ -2,6 +2,17 @@ body {
   margin: 0;
 }
 
+input,
+textarea {
+  border: 1px solid #d0d9d4;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #60c095;
+  outline: none;
+}
+
 .nav_bar {
   display: flex;
   width: 100%;
@@ -103,6 +114,8 @@ body {
 .headline_container .socials {
   display: flex;
   gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .fa-brands,
@@ -239,7 +252,7 @@ body {
   background: #008552;
 }
 
-/* About section */
+/**************************************************About section ************************************************************/
 
 #about {
   margin: 68px 0;
@@ -368,6 +381,8 @@ body {
   justify-content: center;
 }
 
+/**************************************************Contact section ************************************************************/
+
 #contact_form {
   padding: 0;
   display: flex;
@@ -413,7 +428,7 @@ form {
 }
 
 .contact_form ul li textarea {
-  width: 90%;
+  width: 100%;
   padding: 15px 15.5px;
   margin-top: 10px;
 }
@@ -426,7 +441,7 @@ form {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
-  margin: 0 24px;
+  padding: 24px 0;
 }
 
 .contact_socials {
@@ -435,6 +450,8 @@ form {
   list-style: none;
   padding: 0;
   margin-top: 40px;
+  align-items: center;
+  margin: 0;
 }
 
 .contact_email {
@@ -448,7 +465,13 @@ form {
   margin-top: 0;
 }
 
-@media (min-width: 960px) {
+.footer #social {
+  margin-left: 0;
+}
+
+/**************************************************Media queries***************************************************/
+
+@media (min-width: 768px) {
   .headline_container {
     background: none;
   }
@@ -463,7 +486,8 @@ form {
     background: url("./images/Header-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 85% 0%;
+    /* background-position: 100% 0%; */
+    background-position: center;
   }
 
   .header_supporting_text {
@@ -563,7 +587,7 @@ form {
   .portfolio_work {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 143px;
+    padding: 0 5%;
     gap: 24px;
   }
 
@@ -575,35 +599,102 @@ form {
   .about_bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 143px;
+    padding: 0 20px;
   }
 
   .languages {
     padding: 5px;
     margin: 0;
   }
-
   .about_top {
-    position: relative;
-    padding: 0 260px;
-    background-image: url("./images/aboutbottom-desktop.jpg");
-    background-size: 230px;
-    background-repeat: no-repeat;
-    background-position: left center;
+    padding: 0 15%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .about_bottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 143px;
   }
 
+  .landing {
+    background: url("./images/Header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% 0%;
+  }
+
   .portfolio_work {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 143px;
+    padding: 0 10%;
     gap: 24px;
+  }
+
+  .about_top {
+    position: relative;
+    padding: 0 25%;
+    background-image: url("./images/aboutbottom-desktop.jpg");
+    background-size: 230px;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  #contact_form {
+    padding: 64px 10% 164px 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    background-image: url("./images/contact-form-bgleft.jpg"),
+      url("./images/contact-form-bgmiddle.jpg"),
+      url("./images/contact-form-bgright1.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom, 20% 90%, right bottom;
+    background-size: auto, 130px, auto;
+  }
+
+  .contact_form {
+    grid-column: 3/6;
+  }
+
+  .contact_header {
+    grid-column: 1/3;
+    width: 100%;
+    margin: 0;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #172b4d;
+    margin: 0;
+  }
+
+  .contact_form ul li:not(.button_li) {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact_form ul li input {
+    width: 100%;
+    padding: 14px 15.5px;
+  }
+
+  .contact_form ul .button_li {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+
+  .contact_email {
+    display: none;
+  }
+
+  #socials {
+    border: 1px solid #dfe1e6;
   }
 }
