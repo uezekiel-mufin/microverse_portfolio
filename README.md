@@ -64,7 +64,7 @@ This Project was built with the following technologies
 
 No Live Demo for this project yet
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+- [Live Demo Link](https://ezzywealth.github.io/microverse_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
