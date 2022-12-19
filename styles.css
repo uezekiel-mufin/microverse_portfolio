@@ -16,6 +16,45 @@ textarea:focus {
 .nav_bar {
   display: flex;
   width: 100%;
+  position: relative;
+}
+
+.menu_items {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 100;
+  height: 100vh;
+  margin: 0;
+  padding: 0 28px;
+}
+
+.close_menu_icon {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.menu_items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.menu_items li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #3a4a42;
+  text-decoration: none;
 }
 
 .toolbar {
@@ -473,6 +512,10 @@ form {
 @media (min-width: 768px) {
   .headline_container {
     background: none;
+  }
+
+  .menu_items {
+    display: none;
   }
 
   .headline_container .headline_items {
