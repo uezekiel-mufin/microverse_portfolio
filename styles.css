@@ -305,6 +305,17 @@ menu {
   margin: 14px 0;
 }
 
+.portfolio_link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.portfolio_link:active {
+  border: none;
+  outline: none;
+  background: none;
+}
+
 .portfolio_button:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
