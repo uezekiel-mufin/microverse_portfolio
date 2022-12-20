@@ -15,6 +15,10 @@ textarea:focus {
   outline: none;
 }
 
+.main_section {
+  position: relative;
+}
+
 .nav_bar {
   display: flex;
   width: 100%;
@@ -292,7 +296,7 @@ menu {
   justify-content: center;
   padding: 12px;
   gap: 10px;
-  width: 122px;
+  width: 130px;
   height: 48px;
   bottom: 8px;
   background: #36b37f;
@@ -303,6 +307,7 @@ menu {
   line-height: 24px;
   border: none;
   margin: 14px 0;
+  cursor: pointer;
 }
 
 .portfolio_link {
@@ -324,6 +329,112 @@ menu {
 
 .portfolio_button:active {
   background: #008552;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.modal_item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+
+.modal_img_container {
+  position: relative;
+  width: 100%;
+}
+
+.modal_item img {
+  background: #ebf0ee;
+  height: 252px;
+  box-sizing: border-box;
+}
+
+.anchor {
+  text-decoration: none;
+  color: inherit;
+}
+
+.close_icon {
+  position: absolute;
+  top: 20px;
+  right: 29px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.modal_text {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  padding: 16px;
+  bottom: 0;
+  border-radius: 8px;
+}
+
+.modal_item h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: start;
+}
+
+.modal_item p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.modal_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 15px;
+  height: 48px;
+  bottom: 8px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin: 14px 0;
+  cursor: pointer;
+  /* width: 100%; */
+}
+.modal_button .fa-brands {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  width: 100%;
 }
 
 /* About section */
@@ -667,8 +778,114 @@ form {
     gap: 24px;
   }
 
+  .portfolio_techs {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .portfolio_description {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
   .work_item {
     margin: 0;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    overflow: scroll;
+    justify-content: center;
+  }
+
+  .modal_item {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .modal_img_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal_item img {
+    background: #ebf0ee;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .modal_text {
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+    bottom: 0;
+    border-radius: 8px;
+  }
+
+  .modal_item h2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    color: #172b4d;
+    text-align: start;
+    width: 100%;
+    display: flex;
+  }
+
+  .modal_item p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin: 44px 0;
+  }
+
+  .modal_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 15px;
+    height: 48px;
+    bottom: 8px;
+    background: #36b37f;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    margin: 14px 0;
+    cursor: pointer;
+    /* width: 50%; */
+  }
+
+  .buttons {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: end;
   }
 
   /* about section */
