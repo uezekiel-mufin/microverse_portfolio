@@ -4,6 +4,13 @@ const openMenu = document.querySelector(".menu_icon");
 const closeMenu = document.querySelector(".close_menu_icon");
 const menu = document.querySelector(".menu_items");
 const links = document.querySelectorAll(".menu_items ul li");
+let section = document.createElement("section");
+section.className = "portfolio_work";
+let div = document.createElement("div");
+let h2 = document.createElement("h2");
+let ul = document.createElement("ul");
+let li = document.createElement("li");
+let button = document.createElement("button");
 
 const menuOpen = () => {
   menu.style.display = "flex";
@@ -16,3 +23,5 @@ const menuClose = () => {
 openMenu.addEventListener("click", menuOpen);
 closeMenu.addEventListener("click", menuClose);
 links.forEach((link) => link.addEventListener("click", menuClose));
+
+// function tp create the html elements of the portfolio section
