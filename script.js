@@ -12,6 +12,52 @@ let ul = document.createElement("ul");
 let li = document.createElement("li");
 let button = document.createElement("button");
 
+const portfolioData = [
+  {
+    id: 1,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+  {
+    id: 2,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+  {
+    id: 3,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+  {
+    id: 4,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+  {
+    id: 5,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+  {
+    id: 6,
+    name: "Multi-Post Stories Gain+Glory",
+    image: "",
+    technologies: ["Ruby on rails", "css", "Javascript", "html"],
+    link: "",
+  },
+];
+
+
 const menuOpen = () => {
   menu.style.display = "flex";
 };
