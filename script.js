@@ -102,11 +102,14 @@ const handleModal = (item) => {
   let img = document.createElement("img");
   let imgContainer = document.createElement("div");
   let span = document.createElement("span");
+  let span2 = document.createElement("span2");
+  span2.className = "close_icon_container";
   imgContainer.className = "modal_img_container";
   span.className = "close_icon";
   img.src = item.image;
   img.alt = item.name;
-  span.innerText = "X";
+  span.appendChild(span2);
+  span2.innerText = "X";
   span.addEventListener("click", function () {
     modal.style.display = "none";
   });
