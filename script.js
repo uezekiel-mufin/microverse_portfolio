@@ -227,3 +227,9 @@ for (let i = 0; i < portfolioData.length; i++) {
 
   portfolio_section.appendChild(div1);
 }
+
+// functionality for form validation
+
+form.addEventListener("submit", function () {
+  console.log(email);
+});

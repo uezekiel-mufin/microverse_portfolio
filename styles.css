@@ -668,14 +668,6 @@ form {
 }
 
 /***************************** form validation ****************************************/
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
 
 /* This is the style of our error messages */
 .error {
