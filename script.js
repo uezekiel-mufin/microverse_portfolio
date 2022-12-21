@@ -91,17 +91,18 @@ links.forEach((link) => link.addEventListener("click", menuClose));
 //functionality to generate the modal markup
 
 const handleModal = (item) => {
-  console.log(item);
   let container = document.querySelector(".main_section");
   let modal = document.querySelector(".modal");
   modal.style.display = "none";
   modal.style.display = "flex";
+
   let div1 = document.createElement("div");
   div1.className = "modal_item";
+
   let img = document.createElement("img");
   let imgContainer = document.createElement("div");
-  imgContainer.className = "modal_img_container";
   let span = document.createElement("span");
+  imgContainer.className = "modal_img_container";
   span.className = "close_icon";
   img.src = item.image;
   img.alt = item.name;
@@ -109,26 +110,34 @@ const handleModal = (item) => {
   span.addEventListener("click", function () {
     modal.style.display = "none";
   });
-  imgContainer.appendChild(span);
+  div1.appendChild(span);
   img.className = "modal_image";
+
   let div3 = document.createElement("div");
   div3.className = "modal_text";
+
   let h2 = document.createElement("h2");
   h2.className = "work_title";
+
   let ul = document.createElement("ul");
   ul.className = "portfolio_techs";
+
   let li1 = document.createElement("li");
   li1.innerText = item.technologies[0];
+
   let li2 = document.createElement("li");
   li2.innerText = item.technologies[1];
+
   let li3 = document.createElement("li");
   li3.innerText = item.technologies[2];
 
   let p = document.createElement("p");
   p.innerText = item.description;
   p.className = "portfolio_description";
+
   let div4 = document.createElement("div");
   div4.className = "buttons";
+
   let button1 = document.createElement("button");
   let button2 = document.createElement("button");
   let a1 = document.createElement("a");
