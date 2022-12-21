@@ -227,10 +227,11 @@
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h2>
-        <form class="contact_form">
-          <!-- action="https://formspree.io/f/mwkzgobg"
+        <form
+          class="contact_form"
+          action="https://formspree.io/f/mwkzgobg"
           method="POST"
-          class="contact_form" -->
+        >
           <ul>
             <li>
               <input
@@ -253,7 +254,6 @@
                 required
                 maxlength="30"
               />
-              <span class="error" aria-live="polite"></span>
             </li>
             <li>
               <textarea
@@ -266,6 +266,9 @@
                 maxlength="500"
               ></textarea>
             </li>
+            <span class="error" aria-live="polite"
+              >Emails should be in lowercase characters</span
+            >
             <li class="button_li">
               <button class="contact_button">Get in touch</button>
             </li>

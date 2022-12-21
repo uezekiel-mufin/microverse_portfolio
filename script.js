@@ -10,9 +10,9 @@ section.className = "portfolio_work";
 let div = document.createElement("div");
 let h2 = document.createElement("h2");
 let ul = document.createElement("ul");
-const form = document.querySelector('form');
-const email = document.getElementById('email');
-const emailError = document.querySelector('#error span.error');
+const form = document.querySelector("form");
+const email = document.getElementById("email");
+const emailError = document.querySelector(".error");
 
 const portfolioData = [
   {
@@ -233,6 +233,16 @@ for (let i = 0; i < portfolioData.length; i++) {
 
 // functionality for form validation
 
-form.addEventListener("submit", function () {
-  console.log(email);
+email.addEventListener("change", function () {
+  emailError.style.display = "none";
+});
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  if (email.value.toLowerCase() !== email.value) {
+    console.log("invalid email");
+    emailError.style.display = "flex";
+  } else {
+    form.submit();
+  }
 });
