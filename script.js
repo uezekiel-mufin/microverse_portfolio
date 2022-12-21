@@ -10,6 +10,9 @@ section.className = "portfolio_work";
 let div = document.createElement("div");
 let h2 = document.createElement("h2");
 let ul = document.createElement("ul");
+const form = document.querySelector('form');
+const email = document.getElementById('email');
+const emailError = document.querySelector('#error span.error');
 
 const portfolioData = [
   {
