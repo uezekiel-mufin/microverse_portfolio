@@ -418,6 +418,7 @@ menu {
   line-height: 24px;
   color: #344563;
   margin: 0;
+  height: max-content;
 }
 
 .modal_button {
@@ -814,16 +815,19 @@ form {
     overflow: scroll;
     justify-content: center;
     background: #c1c7d0;
+    box-sizing: border-box;
+    padding: 10%;
   }
 
   .modal_item {
     display: flex;
     flex-direction: column;
     padding: 16px;
-    width: 75%;
+    width: 100%;
     align-items: center;
     background: #fff;
     position: relative;
+    height: max-content;
   }
 
   .modal_img_container {
