@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <main>
+    <main class="main_section">
       <section class="landing">
         <header class="nav_bar">
           <menu class="menu_items">
@@ -86,7 +86,7 @@
           </div>
 
           <section class="portfolio_work">
-            <div class="work_item">
+            <!-- <div class="work_item">
               <div class="portfolio_image"></div>
               <div class="portfolio_text">
                 <h2 class="work_title">Multi-Post Stories Gain+Glory</h2>
@@ -163,9 +163,10 @@
                 </ul>
                 <button class="portfolio_button">See Project</button>
               </div>
-            </div>
+            </div> -->
           </section>
         </div>
+        <section class="modal"></section>
       </section>
 
       <section id="about">
@@ -227,9 +228,9 @@
           to chat please get in touch.
         </h2>
         <form
+          class="contact_form"
           action="https://formspree.io/f/mwkzgobg"
           method="POST"
-          class="contact_form"
         >
           <ul>
             <li>
@@ -244,7 +245,6 @@
               />
             </li>
 
-            +++
             <li>
               <input
                 type="text"
@@ -266,6 +266,9 @@
                 maxlength="500"
               ></textarea>
             </li>
+            <span class="error" aria-live="polite"
+              >Emails should be in lowercase characters</span
+            >
             <li class="button_li">
               <button class="contact_button">Get in touch</button>
             </li>
