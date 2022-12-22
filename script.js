@@ -183,30 +183,38 @@ const handleModal = (item) => {
   ul.appendChild(li2);
   ul.appendChild(li3);
 
-  modal.innerHTML = '';
+  // modal.innerHTML = '';
   modal.appendChild(div1);
   container.appendChild(modal);
 };
 
 // logic to insert the html elements of the portfolio section
-for (let i = 0; i < portfolioData.length; i += 1) {
+for (let i = 0; i < portfolioData.length; i += 2) {
   const [first, second, third] = portfolioData[i].technologies;
   const div1 = document.createElement('div');
   div1.className = 'work_item';
+
   const div2 = document.createElement('div');
   div2.className = 'portfolio_image';
+
   const div3 = document.createElement('div');
   div3.className = 'portfolio_text';
+
   const h2 = document.createElement('h2');
   h2.className = 'work_title';
+
   const ul = document.createElement('ul');
   ul.className = 'portfolio_techs';
+
   const li1 = document.createElement('li');
   li1.innerText = first;
+
   const li2 = document.createElement('li');
   li2.innerText = second;
+
   const li3 = document.createElement('li');
   li3.innerText = third;
+
   const button = document.createElement('button');
   button.innerText = 'See Project';
   button.className = 'portfolio_button';
