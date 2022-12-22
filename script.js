@@ -183,7 +183,6 @@ const handleModal = (item) => {
   ul.appendChild(li2);
   ul.appendChild(li3);
 
-  // modal.innerHTML = '';
   modal.appendChild(div1);
   container.appendChild(modal);
 };
