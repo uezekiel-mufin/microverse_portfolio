@@ -12,63 +12,69 @@ const emailError = document.querySelector('.error');
 const portfolioData = [
   {
     id: 1,
-    name: 'Multi-Post Stories Gain+Glory',
-    image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    name: 'Zicomms',
+    image: './images/zicomms.png',
+    technologies: ['NextJS', 'TailwindCSS', 'Javascript', 'MongoDB'],
+    link: 'https://zicomm-v2.vercel.app/',
+    source: 'https://github.com/Ezzywealth/Zicomm2.0',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'Zicomm2.0 is a simple web e-commerce application for furniture. Users can filter their search from the listed furnitures using the filter tools provided, order item and also make payment using paystack and paypal',
   },
   {
     id: 2,
-    name: 'Multi-Post Stories Gain+Glory',
-    image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    name: 'Forkify Recipe',
+    image: './images/forkify.png',
+    technologies: ['NextJS', 'TailwindCSS', 'Javascript'],
+    link: 'https://forkify-nextjs.vercel.app/',
+    source: 'https://github.com/Ezzywealth/forkify-nextjs',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'Forkify is a simple web application that helps users search for recipes to their favorite meals and how to cook these meals',
   },
   {
     id: 3,
-    name: 'Multi-Post Stories Gain+Glory',
-    image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    name: 'Apple clone Redesign',
+    image: './images/appleclone.png',
+    technologies: [
+      'Typescript',
+      'NextJs',
+      'TailwindCSS',
+      'headless-ui',
+      'sanityIO',
+    ],
+    link: 'https://apple-clone-neon.vercel.app/',
+    source: 'https://github.com/Ezzywealth/apple-clone-typescript',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "Apple clone is a replica of one of apple's website design for selling apple product. This project implements ordering items and payment gateway.",
   },
   {
     id: 4,
-    name: 'Multi-Post Stories Gain+Glory',
-    image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    name: 'Todolist',
+    image: './images/todolists.png',
+    technologies: ['css', 'Javascript', 'html'],
+    link: 'https://ezzywealth.github.io/todolist-project',
+    source: 'https://github.com/Ezzywealth/todolist-project',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'This is a JavaScript project that helps users create a To-Do list for everyday. The user would be able to create, edit, delete single todos and also mark several todos as completed and delete those…',
   },
   {
     id: 5,
-    name: 'Multi-Post Stories Gain+Glory',
-    image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    name: 'my Portfolio',
+    image: './images/bankist.png',
+    technologies: ['ReactJS', 'TailwindCSS', 'Javascript'],
+    link: 'https://eudiomuno.vercel.app/',
+    source: 'https://github.com/Ezzywealth/nextportfolio',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'This is a simple portfolio website built using NextJS and TailwindCSS, to showcase some of my work as a software developer',
   },
   {
     id: 6,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'The Bankist',
     image: './images/Snapshoot Portfolio-desktop.jpg',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    link: 'https://ezzywealth.github.io/microverse_portfolio',
-    source: 'https://github.com/Ezzywealth/microverse_portfolio',
+    technologies: ['TailwibdCSS', 'Javascript', 'ReactJS'],
+    link: 'https://bankist-ezzy.netlify.app/',
+    source: 'https://github.com/Ezzywealth/newBankist',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'This is a web mini app for financial transactions. It enables it users to send money to other users, borrow loans based on certain conditions, close their own account',
   },
 ];
 
@@ -188,13 +194,15 @@ const handleModal = (item) => {
 };
 
 // logic to insert the html elements of the portfolio section
-for (let i = 0; i < portfolioData.length; i += 2) {
+for (let i = 0; i < portfolioData.length; i += 1) {
   const [first, second, third] = portfolioData[i].technologies;
   const div1 = document.createElement('div');
   div1.className = 'work_item';
 
-  const div2 = document.createElement('div');
+  const div2 = document.createElement('img');
   div2.className = 'portfolio_image';
+  div2.src = portfolioData[i].image;
+  div2.alt = portfolioData[i].name;
 
   const div3 = document.createElement('div');
   div3.className = 'portfolio_text';
